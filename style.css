@@ -1,0 +1,20 @@
+h1, h3 {
+    color: #ff0013;
+}
+
+p{
+    color:#ff005f;
+    letter-spacing: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+}
+
+body, head{
+    background-color: #4a0000
+}
