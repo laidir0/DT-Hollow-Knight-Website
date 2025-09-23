@@ -1,20 +1,36 @@
-h1, h3 {
-    color: #ff0013;
+
+h1,
+h3 {
+    color: #0f0f1b;
+    font-family: Quintessential, Arial, Helvetica, sans-serif
 }
 
-p{
-    color:#ff005f;
+p {
+    color: #ead9e1;
     letter-spacing: normal;
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 
-h1{
+h1 {
     text-align: center;
     text-decoration: underline;
     font-weight: bold;
     font-style: italic;
+    font-family: Quintessential, Arial, Helvetica, sans-serif
 }
 
-body, head{
-    background-color: #4a0000
+body,
+head {
+    background-color: #565a75;
 }
+
+.navigation{
+    text-align: center
+}
+
+a{
+    color: #fafbf6
+}
+
+
+
