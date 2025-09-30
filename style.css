@@ -12,11 +12,14 @@ p {
 }
 
 h1 {
-    text-align: center;
     text-decoration: underline;
     font-weight: bold;
-    font-style: italic;
     font-family: Quintessential, Arial, Helvetica, sans-serif
+}
+
+.content-box{
+    text-align: center
+    
 }
 
 body,
@@ -31,6 +34,7 @@ head {
 a{
     color: #fafbf6
 }
+
 
 
 
