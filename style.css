@@ -1,7 +1,18 @@
 
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+
 p {
     color: #ead9e1;
     letter-spacing: normal;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body{
     font-family: Arial, Helvetica, sans-serif
 }
 
@@ -19,6 +30,10 @@ h1 {
 body,
 head {
     background-color: #565a75;
+    
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 8px;
 }
 
 .navigation{
@@ -28,6 +43,30 @@ head {
 a{
     color: #fafbf6
 }
+.game-syp{
+    width: 800px;;
+    padding: 20px;
+    margin: auto;
+    border: 8px solid #444;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rbga(0,0,0,0.8);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+    border-color: white
+}
+
+.game-logo{
+    width: 550px;
+    float: none
+}
+
+.main-title{
+    text-align: center;
+    font-size: 65px
+}
+
+
 
 
 
