@@ -26,10 +26,6 @@ h1 {
 body,
 head {
     background-color: #c6b7be;
-    
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 8px;
 }
 
 .navigation{
@@ -52,7 +48,7 @@ a{
 }
 
 .game-logo{
-    width: 550px;
+    max-width: 550px;
     float: none
 }
 
@@ -63,6 +59,7 @@ a{
 
 .centred-content{
     max-width: 1000px;
+    max-height: 1500px;
     background-color: #565a75;
     margin-left: auto;
     margin-right: auto;
