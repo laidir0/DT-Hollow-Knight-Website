@@ -1,73 +1,100 @@
-
 *,
 *::before,
-*::after{
+*::after {
     box-sizing: border-box;
 }
-
 
 p {
     color: #ead9e1;
     letter-spacing: normal;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     text-decoration: underline;
     font-weight: bold;
-    font-family: Quintessential, Arial, Helvetica, sans-serif
+    font-family: Quintessential, Arial, Helvetica, sans-serif;
 }
-
 
 body,
 head {
     background-color: #c6b7be;
 }
 
-.navigation{
-    text-align: center
+a {
+    color: #fafbf6;
 }
-
-a{
-    color: #fafbf6
-}
-.game-syp{
+.game-syp {
     padding: 10px;
     margin: auto;
     border: 8px solid #444;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rbga(0,0,0,0.8);
+    box-shadow: 0 4px 8px rbga(0, 0, 0, 0.8);
     box-sizing: border-box;
     text-align: center;
     font-size: 20px;
     border-color: fafbf6;
 }
 
-.game-logo{
+.game-logo {
     max-width: 550px;
-    float: none
 }
 
-.main-title{
+.main-title {
     text-align: center;
-    font-size: 65px
+    font-size: 65px;
 }
 
-.centred-content{
+.centred-content {
     max-width: 1000px;
-    max-height: 1500px;
+    max-height: 2500;
     background-color: #565a75;
     margin-left: auto;
     margin-right: auto;
     padding: 25px;
 }
 
+.navbar {
+    text-align: center;
+    width: 100%;
+}
 
+/* stuff that doesn't change */
 
+.navbutton {
+    background-color: #0f0f1b;
+    border: 2px dashed #444;
+    
+    height: 60px;
+    vertical-align: middle;
+    padding: 10px;
+}
 
+/* default - mobile/phone */
+.navbutton {
+    width: 100%;
+    margin: -2px;
+    
+}
 
+/* tablet and up */
+@media (min-width: 830px) {
+    .navbutton {
+        display: inline-block;
+        width: 25%;
+        margin: 5px;
+    }
+}
 
+/* large desktop */
+@media (min-width: 1240) {
+    .navbutton {
+        display: inline-block;
+        width: 150px;
+        margin: 10px;
+    }
+}
