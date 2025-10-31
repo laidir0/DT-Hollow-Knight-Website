@@ -6,7 +6,9 @@
 
 /* stuff that doesn't change */
 
-p {
+p,
+table,
+label {
     color: #ead9e1;
     letter-spacing: normal;
     font-family: Arial, Helvetica, sans-serif;
@@ -30,6 +32,7 @@ head {
 a {
     color: #fafbf6;
 }
+
 .game-syp {
     padding: 10px;
     margin: auto;
@@ -47,10 +50,27 @@ a {
     max-width: 100%;
 }
 
-.score-logo{
-    max-width: 50%
+.score-logo {
+    max-width: 50%;
 }
 
+.map-image {
+    max-width: 100%;
+}
+
+.pantheon-image {
+    max-width: 25%;
+}
+
+.city-image {
+    max-width: 75%;
+}
+
+.characters-image {
+    max-width: 50%;
+    float: right;
+    margin: 10px;
+}
 
 .main-title {
     text-align: center;
@@ -71,17 +91,15 @@ a {
     width: 100%;
 }
 
-
 .navbutton {
     background-color: #0f0f1b;
     border: 2px dashed #444;
-     width: 100%;
+    width: 100%;
     margin: -2px;
     height: 60px;
     vertical-align: middle;
     padding: 10px;
 }
-
 
 /* tablet and up */
 @media (min-width: 830px) {
