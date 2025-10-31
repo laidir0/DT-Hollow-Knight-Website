@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* stuff that doesn't change */
+
 p {
     color: #ead9e1;
     letter-spacing: normal;
@@ -45,6 +47,11 @@ a {
     max-width: 100%;
 }
 
+.score-logo{
+    max-width: 50%
+}
+
+
 .main-title {
     text-align: center;
     font-size: 65px;
@@ -64,22 +71,15 @@ a {
     width: 100%;
 }
 
-/* stuff that doesn't change */
 
 .navbutton {
     background-color: #0f0f1b;
     border: 2px dashed #444;
-    
+     width: 100%;
+    margin: -2px;
     height: 60px;
     vertical-align: middle;
     padding: 10px;
-}
-
-/* default - mobile/phone */
-.navbutton {
-    width: 100%;
-    margin: -2px;
-    
 }
 
 
