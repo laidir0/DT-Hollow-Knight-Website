@@ -38,10 +38,11 @@ a {
     text-align: center;
     font-size: 20px;
     border-color: fafbf6;
+    max-width: 100%;
 }
 
 .game-logo {
-    max-width: 550px;
+    max-width: 100%;
 }
 
 .main-title {
@@ -80,6 +81,7 @@ a {
     margin: -2px;
     
 }
+
 
 /* tablet and up */
 @media (min-width: 830px) {
