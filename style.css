@@ -63,7 +63,7 @@ a {
 }
 
 .city-image {
-    max-width: 75%;
+    max-width: 375px;
 }
 
 .characters-image {
@@ -108,6 +108,10 @@ a {
         width: 25%;
         margin: 5px;
     }
+
+    .city-image {
+        max-width: 75%;
+    }
 }
 
 /* large desktop */
@@ -116,5 +120,9 @@ a {
         display: inline-block;
         width: 150px;
         margin: 10px;
+    }
+
+    .city-image {
+        max-width: 75%;
     }
 }
