@@ -38,11 +38,11 @@ a {
     margin: auto;
     border: 8px solid #444;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rbga(0, 0, 0, 0.8);
+    box-shadow: 4px 8px rbga(0, 0, 0, 0.8);
     box-sizing: border-box;
     text-align: center;
     font-size: 20px;
-    border-color: fafbf6;
+  
     max-width: 100%;
 }
 
@@ -79,7 +79,7 @@ a {
 
 .centred-content {
     max-width: 1000px;
-    max-height: 2500;
+    max-height: 2500px;
     background-color: #565a75;
     margin-left: auto;
     margin-right: auto;
@@ -115,7 +115,7 @@ a {
 }
 
 /* large desktop */
-@media (min-width: 1240) {
+@media (min-width: 1240px) {
     .navbutton {
         display: inline-block;
         width: 150px;
